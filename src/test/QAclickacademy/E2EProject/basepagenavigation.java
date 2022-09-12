@@ -23,6 +23,7 @@ public class basepagenavigation extends base{
 		driver=InitializeDriver();
 		log.info("Driver is Initialized");
 		//driver.get(prop.getProperty("url"));
+		System.out.println("git practice1");
 	}
 	@Test(dataProvider="getData")
 	public void homepage(String username,String password) throws IOException, InterruptedException
