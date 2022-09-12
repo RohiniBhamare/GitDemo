@@ -60,5 +60,6 @@ public Object[][] getData()
 	public void closedriver()
 	{
 		driver.close();
+		System.out.println("updated close driver code");
 	}
 }
